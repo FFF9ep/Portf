@@ -29,8 +29,8 @@ A modern, full-stack personal portfolio application built with the MERN stack. F
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/portfolio.git
-    cd portfolio
+    git clone https://github.com/fff9EP/Portf.git
+    cd Portf
     ```
 
 2.  **Install Dependencies**
