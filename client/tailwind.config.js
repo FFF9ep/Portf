@@ -9,26 +9,34 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    50: '#eff6ff',
-                    100: '#dbeafe',
-                    200: '#bfdbfe',
-                    300: '#93c5fd',
-                    400: '#60a5fa',
-                    500: '#3b82f6',
-                    600: '#2563eb',
-                    700: '#1d4ed8', // Corporate Blue
-                    800: '#1e40af',
-                    900: '#1e3a8a',
-                    950: '#172554',
+                    DEFAULT: '#FAFAFA',
+                    foreground: '#0A0A0A',
                 },
+                secondary: {
+                    DEFAULT: '#27272a',
+                    foreground: '#FAFAFA',
+                },
+                muted: {
+                    DEFAULT: '#27272a',
+                    foreground: '#A1A1AA',
+                },
+                accent: {
+                    DEFAULT: '#27272a',
+                    foreground: '#FAFAFA',
+                },
+                background: '#0A0A0A',
+                surface: '#18181B', // Zinc 900
+                border: '#27272a', // Zinc 800
+                
+                // Keep legacy dark object for backward compat if needed, but point to new values
                 dark: {
-                    bg: '#0f172a', // Slate 900
-                    surface: '#1e293b', // Slate 800
-                    border: '#334155', // Slate 700
+                    bg: '#0A0A0A', 
+                    surface: '#18181B',
+                    border: '#27272a',
                 }
             },
             fontFamily: {
-                sans: ['Inter', 'system-ui', 'sans-serif'],
+                sans: ['Manrope', 'system-ui', 'sans-serif'],
             }
         },
     },
